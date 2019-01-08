@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88A966521E7CE843002745DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A966511E7CE843002745DD /* main.m */; };
+		88A966551E7CE843002745DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A966541E7CE843002745DD /* AppDelegate.m */; };
+		88A966581E7CE843002745DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A966571E7CE843002745DD /* ViewController.m */; };
+		88A9665B1E7CE843002745DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A966591E7CE843002745DD /* Main.storyboard */; };
+		88A9665D1E7CE843002745DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A9665C1E7CE843002745DD /* Assets.xcassets */; };
+		88A966601E7CE843002745DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A9665E1E7CE843002745DD /* LaunchScreen.storyboard */; };
+		88A966691E7CE865002745DD /* YQRSAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A966681E7CE865002745DD /* YQRSAHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88A9664D1E7CE843002745DD /* VerifySignatureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerifySignatureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A966511E7CE843002745DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88A966531E7CE843002745DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88A966541E7CE843002745DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88A966561E7CE843002745DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88A966571E7CE843002745DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88A9665A1E7CE843002745DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88A9665C1E7CE843002745DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88A9665F1E7CE843002745DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88A966611E7CE843002745DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A966671E7CE865002745DD /* YQRSAHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQRSAHelper.h; sourceTree = "<group>"; };
+		88A966681E7CE865002745DD /* YQRSAHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQRSAHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88A9664A1E7CE843002745DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88A966441E7CE843002745DD = {
+			isa = PBXGroup;
+			children = (
+				88A9664F1E7CE843002745DD /* VerifySignatureDemo */,
+				88A9664E1E7CE843002745DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88A9664E1E7CE843002745DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88A9664D1E7CE843002745DD /* VerifySignatureDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88A9664F1E7CE843002745DD /* VerifySignatureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				88ADFD8D1E7D285A0071B2C4 /* Class */,
+				88A966531E7CE843002745DD /* AppDelegate.h */,
+				88A966541E7CE843002745DD /* AppDelegate.m */,
+				88A966561E7CE843002745DD /* ViewController.h */,
+				88A966571E7CE843002745DD /* ViewController.m */,
+				88A966591E7CE843002745DD /* Main.storyboard */,
+				88A9665C1E7CE843002745DD /* Assets.xcassets */,
+				88A9665E1E7CE843002745DD /* LaunchScreen.storyboard */,
+				88A966611E7CE843002745DD /* Info.plist */,
+				88A966501E7CE843002745DD /* Supporting Files */,
+			);
+			path = VerifySignatureDemo;
+			sourceTree = "<group>";
+		};
+		88A966501E7CE843002745DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88A966511E7CE843002745DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88ADFD8D1E7D285A0071B2C4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				88A966671E7CE865002745DD /* YQRSAHelper.h */,
+				88A966681E7CE865002745DD /* YQRSAHelper.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88A9664C1E7CE843002745DD /* VerifySignatureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A966641E7CE843002745DD /* Build configuration list for PBXNativeTarget "VerifySignatureDemo" */;
+			buildPhases = (
+				88A966491E7CE843002745DD /* Sources */,
+				88A9664A1E7CE843002745DD /* Frameworks */,
+				88A9664B1E7CE843002745DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerifySignatureDemo;
+			productName = VerifySignatureDemo;
+			productReference = 88A9664D1E7CE843002745DD /* VerifySignatureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88A966451E7CE843002745DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Golden;
+				TargetAttributes = {
+					88A9664C1E7CE843002745DD = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6SP2UUA3HQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 88A966481E7CE843002745DD /* Build configuration list for PBXProject "VerifySignatureDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88A966441E7CE843002745DD;
+			productRefGroup = 88A9664E1E7CE843002745DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88A9664C1E7CE843002745DD /* VerifySignatureDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88A9664B1E7CE843002745DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A966601E7CE843002745DD /* LaunchScreen.storyboard in Resources */,
+				88A9665D1E7CE843002745DD /* Assets.xcassets in Resources */,
+				88A9665B1E7CE843002745DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88A966491E7CE843002745DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A966581E7CE843002745DD /* ViewController.m in Sources */,
+				88A966551E7CE843002745DD /* AppDelegate.m in Sources */,
+				88A966521E7CE843002745DD /* main.m in Sources */,
+				88A966691E7CE865002745DD /* YQRSAHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88A966591E7CE843002745DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A9665A1E7CE843002745DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88A9665E1E7CE843002745DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A9665F1E7CE843002745DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88A966621E7CE843002745DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88A966631E7CE843002745DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88A966651E7CE843002745DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6SP2UUA3HQ;
+				INFOPLIST_FILE = VerifySignatureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingqi.VerifySignatureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88A966661E7CE843002745DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6SP2UUA3HQ;
+				INFOPLIST_FILE = VerifySignatureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yingqi.VerifySignatureDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88A966481E7CE843002745DD /* Build configuration list for PBXProject "VerifySignatureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A966621E7CE843002745DD /* Debug */,
+				88A966631E7CE843002745DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A966641E7CE843002745DD /* Build configuration list for PBXNativeTarget "VerifySignatureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A966651E7CE843002745DD /* Debug */,
+				88A966661E7CE843002745DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88A966451E7CE843002745DD /* Project object */;
+}
